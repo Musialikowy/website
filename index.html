@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>&#127802;Musialikowy Website&#127802;</title>
+        <link href="styles/base.css" rel="stylesheet"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <!-- !TODO! Preview-->
+    </head>
+
+    <body onload="startcounting()">
+        <div id="loading"></div>
+        <div style="display: none;" id="page">TODO</div>
+        <script>
+            var counter;
+            function startcounting()
+            {
+                counter = setTimeout(showpage, 2500);
+            }
+            function showpage()
+            {
+                $("0").add( document.getElementById( "loading" ) ).css( "display", "none" );
+                $("0").add( document.getElementById( "page" ) ).css( "display", "flex" );
+            }
+        </script>
+    </body>
+</html>

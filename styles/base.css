@@ -1,0 +1,26 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+@keyframes loadinganimation{
+    from{background-color: #ffffff;}
+    to{background-color: #a9a9a9;rotate: 360deg;}
+}
+
+#loading{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation-name: loadinganimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#page{
+    display: none;
+    text-align: center;
+}
