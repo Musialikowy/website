@@ -30,3 +30,7 @@ body{
     animation-name: showanimation;
     animation-duration: 1s
 }
+
+#page{
+    text-align: center;
+}
