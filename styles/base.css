@@ -1,6 +1,6 @@
 body{
-    color: white;
-    background-color: black;
+    color: #ffffff;
+    background-color: #736b5e;
 }
 
 @keyframes loadinganimation{
@@ -11,7 +11,7 @@ body{
 #loading{
     width: 25px;
     height: 25px;
-    background-color: white;
+    background-color: #ffffff;
     position: fixed;
     top: 50%;
     left: 50%;
