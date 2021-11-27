@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>&#127802;Musialikowy Website&#127802;</title>
         <link href="styles/base.css" rel="stylesheet"/>
+        <!--JQuery-->
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
         <!--Preview-->
@@ -18,12 +19,17 @@
 
     <body onload="startcounting()">
         <div id="loading"></div>
-        <div style="display: none;" id="page">TODO</div>
+        <!--Page-->
+        <div style="display: none;" id="page" class="show">
+            TODO
+        </div>
+        <!--Loading scripts-->
         <script>
             var counter;
+
             function startcounting()
             {
-                counter = setTimeout(showpage, 2500);
+                counter = setTimeout(showpage, 2000);
             }
             function showpage()
             {

@@ -20,6 +20,13 @@ body{
     animation-iteration-count: infinite;
 }
 
-#page{
-    display: none;
+@keyframes showanimation{ 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+}
+
+.show{
+    position: relative;
+    animation-name: showanimation;
+    animation-duration: 1s
 }
