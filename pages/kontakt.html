@@ -15,32 +15,80 @@
         <meta property="og:title" content="Musialikowy Website">
         <meta property="og:description" content="Strona internetowa o mnie i linuxie">
         <meta property=”og:locale” content=”pl_PL” />
-        <meta property="og:site_name" content="Musialikowy Website | Strona główna">
+        <meta property="og:site_name" content="Musialikowy Website | Kontakt">
     </head>
 
     <body>
         <div id="loading"></div>
         <!--Page-->
-        <div id="page" style="display: none">
-
             <div id="header">
-                <div id="logotext">Musialikowy Website</div>
+                <a id="logotext" onclick="counter()">Musialikowy Website</a>
                 <div id="navigatebar">
-                    <a href="../index.html">Strona główna&nbsp;</a>
-                    <a href="wpisy.html">Wpisy&nbsp;</a>
+                    <a href="../index.html">Strona główna</a>&nbsp;
+                    <a href="wpisy.html">Wpisy</a>&nbsp;
                     <a href="kontakt.html">Kontakt</a>
                 </div>
             </div>
 
-            <div id="text">
-                Póki co, nic tu nic ma =(
-            </div>
         </div>
 
         <!--Mobile support scripts-->
         <script type="text/javascript">
             if ($(window).width() < 994) {
                 window.location = "index-mobile.html";
+            }
+        </script>
+
+        <!--Easteregg-->
+        <script type="text/javascript">
+            var clicks = 0;
+        
+            function counter(){
+                clicks += 1;
+                if(clicks===10)
+                {
+                    $("#logotext").text("Po co tak pukasz???");
+                }
+                if(clicks===20)
+                {
+                    $("#logotext").text("Matko boska");
+                }
+                if(clicks===30)
+                {
+                    $("#logotext").text("Oszalałeś?");
+                }
+                if(clicks===40)
+                {
+                    $("#logotext").text("Ok fajnie");
+                }
+                if(clicks===50)
+                {
+                    $("#logotext").text("Wiesz co?");
+                }
+                if(clicks===60)
+                {
+                    $("#logotext").text("Ostatnio kupiłem takie pyszne minidonuty");
+                }
+                if(clicks===70)
+                {
+                    $("#logotext").text("I były one z polewą");
+                }
+                if(clicks===80)
+                {
+                    $("#logotext").text("Nic tu dalej nie ma");
+                }
+                if(clicks===90)
+                {
+                    $("#logotext").text("Naprawdę, nic tu nie ma");
+                }
+                if(clicks===100)
+                {
+                    $("#logotext").text("A może jednak..");
+                }
+                if(clicks>110)
+                {
+                    window.location.href = 'https://www.youtube.com/watch?v=iik25wqIuFo';
+                }
             }
         </script>
 
@@ -51,14 +99,14 @@
                 $("#loading").fadeOut("slow")
                 $("#page").show();
                 })
-                window.onscroll = function() {myFunction()};
+
+                window.onscroll = function() {scrollfunction()};
 
                 var header = document.getElementById("header");
+                var headersticky = header.offsetTop;
 
-                var sticky = header.offsetTop;
-
-                function myFunction() {
-                    if (window.pageYOffset > sticky)
+                function scrollfunction() {
+                    if (window.pageYOffset > headersticky)
                     {
                         header.classList.add("sticky");
                         
@@ -66,7 +114,8 @@
                     {
                         header.classList.remove("sticky");
                     }
-                } 
+                }
+                
             } catch{
                 document.getElementById("loading").innerHTML = err.message;
                 document.getElementById("page").innerHTML = err.message;

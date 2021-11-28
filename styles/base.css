@@ -46,7 +46,6 @@ a:hover{
 }
 
 @keyframes loadinganimation{
-    from{background-color: #ffffff;}
     to{background-color: #a9a9a9;rotate: 360deg;}
 }
 
@@ -73,13 +72,26 @@ a:hover{
     animation-duration: 1s;
 }
 
+#page #header{
+    position: fixed;
+    background-color: #5b1ea633;
+    /*background: linear-gradient(200deg,rgba(91, 30, 166, 0.281) 0%,rgba(83, 59, 128, 0.281) 100%);*/
+    padding: 20px 100% 80px 20px;
+    top: 0%;
+    left: 0%;
+}
+
 #page #header #logotext{
     position: fixed;
+    left: 5%;
+    top: 3%;
     font-size: 35px;
+    text-decoration: none;
 }
 
 #page #header #navigatebar{
     color: #e9e9e9;
     position: fixed;
     right: 5%;
+    top: 3%;
 }
