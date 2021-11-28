@@ -1,7 +1,82 @@
-#page #text{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+#page #content .box1{
+    width: 500px;
+    height: 230px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    position: absolute;
+    left: 10%;
+}
+
+#page #content .box1 .box1header{
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+}
+
+#page #content .box1 .box1text{
+    position: absolute;
+    left: 12%
+}
+
+#page #content .box1 .box1image{
+    position: absolute;
+    left: 70%;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    top: 110%;
+    
+}
+
+#page #content .box2{
+    width: 500px;
+    height: 230px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    position: absolute;
+    left: 65%;
+}
+
+#page #content .box2 .box2header{
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+}
+
+#page #content .box2 .box2text{
+    position: absolute;
+    left: 12%
+}
+
+#page #content .box2 .box2image{
+    position: absolute;
+    left: 65%;
+    width: 220px;
+    height: 236px;
+    top: -170%;
+    
+}
+
+#page #content .box3{
+    width: 500px;
+    height: 230px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    position: absolute;
+    left: 10%;
+    margin-bottom: 60px;
+}
+
+#page #content .box3 .box3header{
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+}
+
+#page #content .box3 .box3text{
+    position: absolute;
+    left: 12%
 }

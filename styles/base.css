@@ -7,6 +7,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     word-spacing: 2px;
+    min-height: 1100px;
 }
 
 a{
@@ -27,7 +28,7 @@ a:hover{
 }
     
 ::-webkit-scrollbar-track {
-    background: #000000;
+    background: rgb(0, 0, 0);
 }
      
 ::-webkit-scrollbar-thumb {
@@ -40,7 +41,7 @@ a:hover{
 }
 
 *{
-    scrollbar-color: rgb(46, 46, 56) #000000;
+    scrollbar-color: rgb(46, 46, 56) rgb(0, 0, 0);
     scrollbar-width: 10px;
 }
 
@@ -74,7 +75,7 @@ a:hover{
 
 #page #header #logotext{
     position: fixed;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #page #header #navigatebar{
