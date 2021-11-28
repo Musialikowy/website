@@ -1,2 +1,2 @@
-Witam na mojej stronie!
-https://musialikowy.github.io/website/
+# Witam na mojej stronie!
+[Kliknij aby wejść](https://musialikowy.github.io/website/)
