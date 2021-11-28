@@ -44,21 +44,21 @@
             }
         </script>
 
-        <!--Loading scripts-->
+        <!--Loading and scroll scripts-->
         <script>
             try{
                 $(window).on("load",function(){
                 $("#loading").fadeOut("slow")
                 $("#page").show();
                 })
-                window.onscroll = function() {myFunction()};
+
+                window.onscroll = function() {scrollfunction()};
 
                 var header = document.getElementById("header");
+                var headersticky = header.offsetTop;
 
-                var sticky = header.offsetTop;
-
-                function myFunction() {
-                    if (window.pageYOffset > sticky)
+                function scrollfunction() {
+                    if (window.pageYOffset > headersticky)
                     {
                         header.classList.add("sticky");
                         
@@ -66,7 +66,8 @@
                     {
                         header.classList.remove("sticky");
                     }
-                } 
+                }
+                
             } catch{
                 document.getElementById("loading").innerHTML = err.message;
                 document.getElementById("page").innerHTML = err.message;

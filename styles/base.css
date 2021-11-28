@@ -50,13 +50,13 @@ a:hover{
     animation-duration: 1s;
 }
 
+#page #header #logotext{
+    position: fixed;
+    font-size: 30px;
+}
+
 #page #header #navigatebar{
     color: #e9e9e9;
     position: fixed;
     right: 5%;
-}
-
-#page #header #logotext{
-    position: fixed;
-    font-size: 30px;
 }
