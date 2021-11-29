@@ -1,7 +1,24 @@
-#page #content{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+#page #content .box1{
+    width: 500px;
+    height: 230px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    position: absolute;
+    left: 10%;
+}
+
+#page #content .box1 .box1header{
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+}
+
+#page #content .box1 .box1text{
+    position: absolute;
+    left: 12%
+}
+
+#page #content .box1 .box1text a{
+    color: #7caddb;
 }
