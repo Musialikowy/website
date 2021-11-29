@@ -69,6 +69,10 @@ img {
     to{opacity: 100;}
 }
 
+@keyframes slideup{
+    from{transform: translateY(40%);}
+}
+
 #loading{
     width: 25px;
     height: 25px;

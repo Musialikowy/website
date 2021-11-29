@@ -6,6 +6,8 @@
     color: #000000;
     position: absolute;
     left: 10%;
+    animation-name: slideup;
+    animation-duration: 1s;
 }
 
 #page #content .box1 .box1header{
@@ -37,6 +39,8 @@
     color: #000000;
     position: absolute;
     left: 65%;
+    animation-name: slideup;
+    animation-duration: 0.7s
 }
 
 #page #content .box2 .box2header{
@@ -67,7 +71,8 @@
     color: #000000;
     position: absolute;
     left: 10%;
-    margin-bottom: 60px;
+    animation-name: slideup;
+    animation-duration: 0.5s;
 }
 
 #page #content .box3 .box3header{
