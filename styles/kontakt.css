@@ -6,6 +6,8 @@
     color: #000000;
     position: absolute;
     left: 10%;
+    animation-name: slideup;
+    animation-duration: 1s;
 }
 
 #page #content .box1 .box1header{
@@ -20,5 +22,32 @@
 }
 
 #page #content .box1 .box1text a{
+    color: #7caddb;
+}
+
+#page #content .box2{
+    width: 500px;
+    height: 230px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    position: absolute;
+    left: 65%;
+    animation-name: slideup;
+    animation-duration: 0.7s
+}
+
+#page #content .box2 .box2header{
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+}
+
+#page #content .box2 .box2text{
+    position: absolute;
+    left: 12%;
+}
+
+#page #content .box2 a{
     color: #7caddb;
 }
