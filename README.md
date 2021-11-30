@@ -4,7 +4,6 @@ Witaj w repozytorium mojej strony! Znajdziesz tutaj między innymi kod źródło
 [kliknij aby wejść na stronę](https://musialikowy.github.io/website/)
 
 <img align="left" src="https://github.com/Musialikowy/website/blob/main/pagescreenshot.png?raw=true">
-<br>
 
 ### 📨 Kontakt:
 
