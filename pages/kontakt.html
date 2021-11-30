@@ -154,22 +154,6 @@
                 $("#loading").fadeOut("slow")
                 $("#page").show();
                 })
-
-                window.onscroll = function() {scrollfunction()};
-
-                var header = document.getElementById("header");
-                var headersticky = header.offsetTop;
-
-                function scrollfunction() {
-                    if (window.pageYOffset > headersticky)
-                    {
-                        header.classList.add("sticky");
-                        
-                    }else 
-                    {
-                        header.classList.remove("sticky");
-                    }
-                }
                 
             } catch{
                 document.getElementById("loading").innerHTML = err.message;

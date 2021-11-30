@@ -93,11 +93,20 @@ img {
 
 #page #header{
     position: fixed;
-    background-color: #5b1ea633;
+    /*background-color: #5b1ea633;
     /*background: linear-gradient(200deg,rgba(91, 30, 166, 0.281) 0%,rgba(83, 59, 128, 0.281) 100%);*/
-    padding: 20px 100% 80px 20px;
+    /*padding: 20px 100% 80px 20px;*/
     top: 0%;
     left: 0%;
+}
+
+#page #header .sticky{
+    padding: 5px 100px;
+    background: #fff;
+}
+#page #header .sticky1{
+    padding: 5px 100px;
+    background: rgb(209, 209, 209);
 }
 
 #page #header #logotext{
