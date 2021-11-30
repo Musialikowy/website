@@ -3,8 +3,6 @@
 Witaj w repozytorium mojej strony! Znajdziesz tutaj między innymi kod źródłowy. Dziękuję, że tutaj przybyłeś! Jeśli czegoś potrzebujesz możesz się ze mną skontaktować. Możesz również dowlonie kopiować kod mojej strony i go stosować w swoich projektach oraz go rozpowszechniać.
 [kliknij aby wejść na stronę](https://musialikowy.github.io/website/)
 
-<img align="left" src="https://github.com/Musialikowy/website/blob/main/pagescreenshot.png?raw=true">
-
 ### 📨 Kontakt:
 
 email: musialikowy@gmail.com <br>
