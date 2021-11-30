@@ -7,7 +7,7 @@ Witaj w repozytorium mojej strony! Znajdziesz tutaj między innymi kod źródło
 
 ### 📨 Kontakt:
 
-email: musialikowy@gmail.com
+email: musialikowy@gmail.com <br>
 discord: Musialikowyツ#2720
 
 <br />
