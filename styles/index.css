@@ -1,3 +1,7 @@
+body{
+    min-height: 1300px;
+}
+
 #page #content .box1{
     width: 500px;
     height: 230px;
@@ -64,8 +68,8 @@
 }
 
 #page #content .box3{
-    width: 500px;
-    height: 230px;
+    width: 550px;
+    height: 430px;
     background-color: #ffffff;
     border-radius: 20px;
     color: #000000;
