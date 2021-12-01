@@ -31,8 +31,7 @@ body{
     border-radius: 20px;
     width: 200px;
     height: 200px;
-    top: 110%;
-    
+    top: 110%;    
 }
 
 #page #content .box2{
@@ -64,7 +63,7 @@ body{
     width: 220px;
     height: 236px;
     top: -170%;
-    
+    transition: 200ms;
 }
 
 #page #content .box3{

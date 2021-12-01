@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Musialikowy Website | Strefa kontaktu</title>
+        <link rel="icon" href="images/logo.png" type="image/x-icon">
+        <link href="styles/base.css" rel="stylesheet"/>
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <!--Preview-->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://musialikowy.github.io/website/">
+        <meta property="og:title" content="Musialikowy Website">
+        <meta property="og:description" content="Strona internetowa o mnie i linuxie">
+        <meta property=”og:locale” content=”pl_PL” />
+        <meta property="og:site_name" content="Musialikowy Website | Strefa kontaktu">
+    </head>
+
+    <body>
+        <div id="loading"></div>
+        <!--Page-->
+        <div id="page" style="display: none">
+            <div id="content">
+                <!--TODO: Email sending-->
+            </div>
+            <div id="header">
+                <a id="logotext" onclick="counter()">Musialikowy Website</a>
+            </div>
+
+        </div>
+
+        <!--Mobile support scripts-->
+        <script type="text/javascript">
+            if ($(window).width() < 994) {
+                window.location = "index-mobile.html";
+            }
+        </script>
+        <!--Easteregg-->
+        <script type="text/javascript">
+            var clicks = 0;
+        
+            function counter(){
+                clicks += 1;
+                if(clicks===10)
+                {
+                    $("#logotext").text("Po co tak pukasz???");
+                }
+                if(clicks===20)
+                {
+                    $("#logotext").text("Matko Boska");
+                }
+                if(clicks===30)
+                {
+                    $("#logotext").text("Oszalałeś?");
+                }
+                if(clicks===40)
+                {
+                    $("#logotext").text("Ok fajnie");
+                }
+                if(clicks===50)
+                {
+                    $("#logotext").text("Wiesz co?");
+                }
+                if(clicks===60)
+                {
+                    $("#logotext").text("Ostatnio kupiłem takie pyszne minidonuty");
+                }
+                if(clicks===70)
+                {
+                    $("#logotext").text("I były one z polewą");
+                }
+                if(clicks===80)
+                {
+                    $("#logotext").text("Nic tu dalej nie ma");
+                }
+                if(clicks===90)
+                {
+                    $("#logotext").text("Naprawdę, nic tu nie ma");
+                }
+                if(clicks===100)
+                {
+                    $("#logotext").text("A może jednak..");
+                }
+                if(clicks===110)
+                {
+                    $("#logotext").text("Zatowałem hihi");
+                }
+                if(clicks===120)
+                {
+                    $("#logotext").text("Ała! To zaczyna boleć");
+                }
+                if(clicks===130)
+                {
+                    $("#logotext").text("Błagam! Przestań!");
+                }
+                if(clicks===140)
+                {
+                    $("#logotext").text("=(");
+                }
+            }
+        </script>
+
+        <!--Loading and scroll scripts-->
+        <script type="text/javascript">
+            try{
+                $(window).on("load",function(){
+                $("#loading").fadeOut("slow")
+                $("#page").show();
+                })
+                
+            } catch{
+                document.getElementById("loading").innerHTML = err.message;
+                document.getElementById("page").innerHTML = err.message;
+            }
+            
+        </script>
+        <!--JavaScript notification-->
+        <noscript>
+            Aby strona się wyświetliła, należy włączyć JavaScript.
+            Jeśli włączysz Javascript i odświeżysz stronę, ten komunikat <ins>powinien</ins> zniknąć.
+        </noscript>
+    </body>
+</html>
