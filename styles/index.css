@@ -2,6 +2,15 @@ body{
     min-height: 1300px;
 }
 
+img{
+    transition: 200ms;
+}
+
+img:hover{
+    transition: 200ms;
+    transform: translateX(10%);
+}
+
 #page #content .box1{
     width: 500px;
     height: 230px;
@@ -18,6 +27,12 @@ body{
     font-size: 25px;
     position: absolute;
     left: 5%;
+    transition: 200ms;
+}
+
+#page #content .box1 .box1header:hover{
+    font-size: 30px;
+    transition: 200ms;
 }
 
 #page #content .box1 .box1text{
@@ -31,8 +46,14 @@ body{
     border-radius: 20px;
     width: 200px;
     height: 200px;
-    top: 110%;    
+    top: 110%;
 }
+
+
+
+
+
+
 
 #page #content .box2{
     width: 500px;
@@ -50,6 +71,12 @@ body{
     font-size: 25px;
     position: absolute;
     left: 5%;
+    transition: 200ms;
+}
+
+#page #content .box2 .box2header:hover{
+    font-size: 30px;
+    transition: 200ms;
 }
 
 #page #content .box2 .box2text{
@@ -59,12 +86,17 @@ body{
 
 #page #content .box2 .box2image{
     position: absolute;
-    left: 65%;
+    left: 67%;
     width: 220px;
     height: 236px;
     top: -170%;
-    transition: 200ms;
 }
+
+
+
+
+
+
 
 #page #content .box3{
     width: 550px;
@@ -82,6 +114,12 @@ body{
     font-size: 25px;
     position: absolute;
     left: 5%;
+    transition: 200ms;
+}
+
+#page #content .box3 .box3header:hover{
+    font-size: 30px;
+    transition: 200ms;
 }
 
 #page #content .box3 .box3text{

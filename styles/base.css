@@ -20,6 +20,10 @@ a:hover{
     cursor: pointer;
 }
 
+div{
+    cursor: default;
+}
+
 #page #header #navigatebar .barbutton{
     color: #ffffff;
 }
