@@ -1,16 +1,16 @@
-let jsondata = 0;
-
-function getpost(location){
-  	$.getJSON(location, function(data){
-		jsondata = data;
-	}).fail(function(){
-		alert("An error has occurred.");
-	});
+function getpost(id){
+	if(id===1)
+	{
+		$.getJSON(location, function(data){
+			alert(data.header);
+		}).fail(function(){
+			alert("An error has occurred.");
+		});
+	}
 }
 
 function renderpost(postid){
-	getpost("../posts/test.json");
-	alert(jsondata.header);
+	getpost(1);
 }
 
-renderpost(1)
+renderpost(1);
