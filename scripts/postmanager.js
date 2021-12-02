@@ -1,7 +1,7 @@
 let jsondata = 0;
 
-function getpost(id){
-  	$.getJSON("../posts/test.json", function(data){
+function getpost(location){
+  	$.getJSON(location, function(data){
 		jsondata = data;
 	}).fail(function(){
 		alert("An error has occurred.");
@@ -9,6 +9,8 @@ function getpost(id){
 }
 
 function renderpost(postid){
-	getpost(postid);
+	getpost("../posts/test.json");
 	alert(jsondata.header);
 }
+
+renderpost(1)
