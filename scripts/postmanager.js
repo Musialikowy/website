@@ -1,18 +1,9 @@
-var HEADER;
-var TEXT;
-
-function getpost(id){
-	$.getJSON(id, function(data){
-		HEADER = data.header;
-		TEXT = data.text;
+function renderpost(postid){
+	$.getJSON(postid, function(data){
+		alert(data.text + " " + data.header);
 	}).fail(function(){
 		alert("An error has occurred.");
 	});
-}
-
-function renderpost(postid){
-	getpost(postid);
-	alert(HEADER + " " + TEXT);
 }
 
 renderpost("../posts/test.json");
