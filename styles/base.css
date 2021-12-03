@@ -65,8 +65,8 @@ img {
 }
 
 @keyframes loadinganimation{
-    from{background-color: #ffffff;rotate: 0deg;}
-    to{background-color: #a9a9a9;rotate: 360deg;}
+    from{background-color: #ffffff;transform: rotate(0deg);}
+    to{background-color: #a9a9a9;transform: rotate(360deg);}
 }
 
 @keyframes slowshow{
