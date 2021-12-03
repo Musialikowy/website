@@ -65,7 +65,7 @@ img {
 }
 
 @keyframes loadinganimation{
-    to{background-color: #ffffff;rotate: 0deg;}
+    from{background-color: #ffffff;rotate: 0deg;}
     to{background-color: #a9a9a9;rotate: 360deg;}
 }
 
@@ -75,8 +75,8 @@ img {
 }
 
 @keyframes slideup{
-    from{transform: translateY(40%);}
-    from{transform: translateY(100%);}
+    from{transform: translateY(0%);}
+    to{transform: translateY(40%);}
 }
 
 #loading{
