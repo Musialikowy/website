@@ -1,5 +1,6 @@
 {
+    "description": "TEST",
+    "descriptionimage": "TEST",
     "title": "TEST WCZYTYWANIA PLIKÓW JSON ( title )",
-    "header": "Test Wczytywania Plików Json ( header )",
-    "text": "test wczytywania plików json ( text )"
+    "htmlcode": "Test"
 }
