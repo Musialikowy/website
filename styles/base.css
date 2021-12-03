@@ -75,8 +75,7 @@ img {
 }
 
 @keyframes slideup{
-    from{transform: translateY(0%);}
-    to{transform: translateY(40%);}
+    from{transform: translateY(40%);}
 }
 
 #loading{
