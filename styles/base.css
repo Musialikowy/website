@@ -65,9 +65,15 @@ img {
 }
 
 @keyframes loadinganimation{
-    from{background-color: #ffffff;transform: rotate(0deg);}
-    to{background-color: #a9a9a9;transform: rotate(360deg);}
+    from{background-color: #ffffff; transform: rotate(1deg);}
+    to{background-color: #a9a9a9; transform: rotate(360deg);}
 }
+
+@-webkit-keyframes loadinganimation{
+    from{background-color: #ffffff; -webkit-transform: rotate(0deg);}
+    to{background-color: #a9a9a9; -webkit-transform: rotate(360deg);}
+}
+
 
 @keyframes slowshow{
     from{opacity: 0;}
@@ -89,6 +95,9 @@ img {
     animation-name: loadinganimation;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    -webkit-animation-name: loadinganimation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 #page{
