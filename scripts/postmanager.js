@@ -1,6 +1,7 @@
 function renderpost(postid){
 	$.getJSON(postid, function(data){
 		$("#postheader").text(data.header);
+		$("#code").text(data.htmlcode);
 	}).fail(function(){
 		alert("Wystąpił nieznany błąd.");
 	});
