@@ -1,6 +1,6 @@
 function renderpost(postid){
 	$.getJSON(postid, function(data){
-		alert(data.description + " " + data.descriptionimage + " " + data.title + " " + data.htmlcode);
+		$("#postheader").text(data.header);
 	}).fail(function(){
 		alert("Wystąpił nieznany błąd.");
 	});
