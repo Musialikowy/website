@@ -110,12 +110,19 @@
         </div>
 
         <!--Mobile support scripts-->
-        <script src="scripts/mobile.js" type ="text/javascript"></script>
+        <script type ="text/javascript">
+            if ($(window).width() < 994) {
+                window.location = "index-mobile.html";
+            }
+        </script>
 
         <script src="scripts/main.js" type="text/javascript"></script>
 
         <!--Loading and scroll scripts-->
         <script src="scripts/loading.js"></script>
+
+        <script type="text/javascript">var filelocation = 0;</script>
+
         <!--JavaScript notification-->
         <noscript>
             Aby strona się wyświetliła, należy włączyć JavaScript.
