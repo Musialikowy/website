@@ -1,7 +1,8 @@
 #page #content .box1{
-    width: 65%;
-    height: 100%;
+    width: 75%;
+    height: auto;
     padding-bottom: 50px;
+    padding-right: 60px;
     background-color: #ffffff;
     border-radius: 20px;
     color: #000000;
