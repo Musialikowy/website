@@ -24,7 +24,7 @@
     transition: 200ms;
 }
 
-#page #content .box1 .box1text{
+#page #content .box1 .code{
     position: absolute;
-    left: 12%
+    left: 25%;
 }
