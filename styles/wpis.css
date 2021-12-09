@@ -1,7 +1,30 @@
-#page #content{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+#page #content .box1{
+    width: 65%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    animation-name: slideup;
+    animation-duration: 1s;
+}
+
+#page #content .box1 .postheader{
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+    transition: 200ms;
+}
+
+#page #content .box1 .postheader:hover{
+    font-size: 30px;
+    transition: 200ms;
+}
+
+#page #content .box1 .box1text{
+    position: absolute;
+    left: 12%
 }
