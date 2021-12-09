@@ -26,6 +26,6 @@
 }
 
 #page #content .box1 .code{
-    position: fixed;
+    position: relative;
     left: 4%;
 }
