@@ -1,3 +1,8 @@
 {
-    "test": "test.json"
+    "test":
+    {
+        "location": "../posts/test.json",
+        "descriptionimage": "",
+        "description": ""
+    }
 }

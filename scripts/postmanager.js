@@ -1,6 +1,6 @@
 function renderpost(postid){
 	$.getJSON(postid, function(data){
-		$("title").text(data.title);
+		$(".title").text(data.title);
 		$(".postheader").text(data.header);
 		$(".code").text(data.htmlcode);
 	}).fail(function(){
