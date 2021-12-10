@@ -156,18 +156,3 @@ img {
     -khtml-user-select: none;
     user-select:none;
 }
-
-#page #footer{
-    position: fixed;
-    background-color: #5b1ea633;
-    padding: 20px 100% 70px 20px;
-    left: 0;
-    bottom: 0;
-}
-
-#page #footer .note{
-    position: fixed;
-    margin-left: -150px; /* Negative half of width. */
-    left: 50%;
-    
-}
