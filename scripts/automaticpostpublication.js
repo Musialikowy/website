@@ -5,3 +5,5 @@ function renderlink(){
 		alert("Wystąpił nieznany błąd.");
 	});
 }
+
+renderlink();
