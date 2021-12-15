@@ -170,9 +170,9 @@ img {
 }
 
 #page footer .note{
-    position: absolute;
+    position: sticky;
     width: 100%;
     text-align: center;
-    top: 40%;
+    top: 93%;
 
 }
