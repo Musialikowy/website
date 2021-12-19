@@ -8,12 +8,12 @@ Witaj w repozytorium mojej strony! Znajdziesz tutaj między innymi kod źródło
 email: musialikowy@gmail.com <br>
 discord: Musialikowyツ#2720
 
-<br />
-
 ### 💻 Twórcy:
 
-[DeCoz0]
-[Musialikowy]
+[DeCoz0]<br>
+[Musialikowy](https://github.com/Musialikowy)
+
+<br />
 
 ### 🔧 Użyte technologie i narzędzia:
 
