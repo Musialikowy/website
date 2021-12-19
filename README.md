@@ -10,8 +10,8 @@ discord: Musialikowyツ#2720
 
 ### 💻 Twórcy:
 
-[DeCoz0](https://github.com/DeCoz0)<br>
-[Musialikowy](https://github.com/Musialikowy)
+[DeCoz0](https://github.com/DeCoz0) [Wpisy]<br>
+[Musialikowy](https://github.com/Musialikowy) [Wpisy, Kod, Design]
 
 <br />
 
